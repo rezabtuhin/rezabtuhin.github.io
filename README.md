@@ -1,7 +1,3 @@
-# Rezab Ud Dawla — scientific portfolio
-
-A static Next.js App Router migration of `grid-portfolio.html`, built directly in this repository. The original HTML and source fonts are preserved. All biography text, citations, dates, descriptions, image URLs, PDF URLs, and external destinations come from that file.
-
 ## Local development
 
 Use Node.js 24 (`.nvmrc`) and npm:
