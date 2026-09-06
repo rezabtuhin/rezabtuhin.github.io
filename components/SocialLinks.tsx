@@ -18,7 +18,7 @@ export default function SocialLinks() {
           download={link.download}
         >
           <svg
-            className={link.download ? "download-icon" : undefined}
+            className={link.download ? "document-icon" : undefined}
             viewBox="0 0 24 24"
             aria-hidden="true"
           >

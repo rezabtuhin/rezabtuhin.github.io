@@ -97,7 +97,7 @@ export const socialLinks: readonly SocialLink[] = [
     path: "M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z",
   },
   {
-    href: "https://scholar.google.com/scholar?q=%22Rezab+Ud+Dawla%22",
+    href: "https://scholar.google.com/citations?user=8CsMgtMAAAAJ&hl=en&oi=ao",
     ariaLabel: "Rezab Ud Dawla on Google Scholar",
     title: "Google Scholar",
     path: "M12 24a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm0-24L0 9.5l4.84 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.16 4.44L24 9.5 12 0Z",
@@ -121,7 +121,7 @@ export const socialLinks: readonly SocialLink[] = [
     href: "https://xizhvfokbwpywdhmevcs.supabase.co/storage/v1/object/sign/snacks/pdfs/Resume___Rezab_Ud_Dawla.pdf?token=eyJraWQiOiJkYjk4MjExZC0xMWY3LTRhNzAtYTNlMi1lNWIyMmNkOWIyZGQiLCJhbGciOiJIUzUxMiJ9.eyJ1cmwiOiJzbmFja3MvcGRmcy9SZXN1bWVfX19SZXphYl9VZF9EYXdsYS5wZGYiLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg4NjkwMDMyLCJleHAiOjE5NDYzNzAwMzJ9.vL7PJ-1JmpZpmP1MRH6C6xkWDaHeOyEgb7vSRJ7zfgE6WwcJ1dgHpPMUr9VQ_A765znBLbgLrWHYmlTJIfec_A",
     ariaLabel: "Download Rezab Ud Dawla's curriculum vitae",
     title: "Download CV",
-    path: "M12 4v12m0 0-4.5-4.5M12 16l4.5-4.5M4 20h16",
+    path: "M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9L14 3ZM14 3v6h6M8 13h8M8 17h5",
     download: "Rezab_Ud_Dawla_CV.pdf",
   },
 ];

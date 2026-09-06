@@ -9,6 +9,7 @@
     "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc --noEmit",
     "verify:export": "node scripts/verify-export.mjs",
+    "verify:migration": "node scripts/verify-export.mjs --compare-original",
     "optimize:images": "node --experimental-strip-types scripts/optimize-images.mjs"
   },
   "engines": {

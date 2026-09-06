@@ -20,6 +20,11 @@ npm run typecheck
 npm run verify:export
 ```
 
+`verify:export` validates the deployable site and does not require the ignored
+`grid-portfolio.html`. When that original file is available locally, run
+`npm run verify:migration` for the additional strict content, URL, and source-hash
+comparison. The GitHub Pages workflow only needs `verify:export`.
+
 `npm run build` generates `out/`. Serve that directory with any static HTTP server, for example:
 
 ```sh
@@ -97,7 +102,7 @@ Font subsets retain Playfair's Latin characters, punctuation, OpenType features,
 
 Assess loading performance with a production build served from `out/`. The development server intentionally includes debugging and hot-reload work and is not representative of production speed.
 
-`app/layout.tsx` contains metadata and verified Person JSON-LD. Google Scholar remains the source's search URL; no unverified profile ID was introduced. Robots and sitemap metadata routes are forced static.
+`app/layout.tsx` contains metadata and verified Person JSON-LD. Both the Google Scholar social link and Person `sameAs` metadata use the profile supplied by the site owner: `https://scholar.google.com/citations?user=8CsMgtMAAAAJ&hl=en&oi=ao`. Robots and sitemap metadata routes are forced static.
 
 The original referenced `favicon.svg` was absent. With the user's authorization, `app/icon.svg` was generated from the actual Brodia R glyph as an outlined vector path. It changes stroke color with the device theme and requires no font download.
 

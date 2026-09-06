@@ -4,6 +4,11 @@ Verified on September 6, 2026. The application is in the original project folder
 
 This records the initial migration. The subsequent [performance optimization report](performance.md) describes the responsive image files, smaller font subsets, and server-rendered image component that now replace the initial `next/image` implementation. Original content, source fonts, and remote fallback URLs remain preserved.
 
+The deployment check now runs independently of the ignored `grid-portfolio.html`.
+Use `npm run verify:export` in CI and `npm run verify:migration` locally for the
+additional original-source comparisons described below. This separation fixes
+the GitHub Actions ENOENT failure when the legacy file is absent from checkout.
+
 ## Build and source integrity
 
 | Check | Result |
