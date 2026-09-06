@@ -1,0 +1,31 @@
+{
+  "name": "rezabtuhin.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "verify:export": "node scripts/verify-export.mjs",
+    "optimize:images": "node --experimental-strip-types scripts/optimize-images.mjs"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.4",
+    "sharp": "0.35.4",
+    "typescript": "6.0.3"
+  }
+}

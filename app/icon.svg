@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <style>path { fill: none; stroke: #171717; } @media (prefers-color-scheme: dark) { path { stroke: #eee; } }</style>
+  <path d="M104 288H359L445 0H595L505 305C589 335 626 402 640 495C657 621 614 700 445 700H128L126 686L157 663L144 560H428C481 560 490 531 484 494C480 459 461 427 407 429H124Z" transform="translate(26.2781 750) scale(1 -1)" stroke-width="16" stroke-linejoin="round" />
+</svg>
