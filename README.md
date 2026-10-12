@@ -29,6 +29,8 @@ python -m http.server 8080 --directory out
 
 No Node.js server, database, API route, image optimization service, or environment variable is needed to serve the export. Remote images and PDFs retain their original Supabase URLs.
 
+For Supabase Free plan inactivity pauses, see the [scheduled database check setup](docs/supabase-keepalive.md). The optional GitHub Actions workflow requires a publishable API key secret and a one-time heartbeat table setup.
+
 The dependency lockfile makes `npm ci` reproducible. Next.js is pinned to 16.3.4 and React to 19.2.8. TypeScript 6.0.3 and ESLint 9.39.5 are pinned for compatibility with the TypeScript and React plugins bundled by `eslint-config-next`; those plugins do not yet support TypeScript 7 and ESLint 10, respectively. npm currently emits an upstream deprecation notice for ESLint 9. The application lint command runs with zero tolerated warnings.
 
 ## Source structure
